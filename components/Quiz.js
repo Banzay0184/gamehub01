@@ -79,6 +79,87 @@ const quizData = [
             {text: 'No', correct: false},
         ],
     },
+    /////
+    {
+        question: 'Is "The Legend of Zelda: Breath of the Wild" an open-world game?',
+        img: 'https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg',
+        answers: [
+            {text: 'Yes', correct: true},
+            {text: 'No', correct: false},
+        ],
+    },
+    {
+        question: 'Is "Final Fantasy VII Remake" a remake of a classic RPG?',
+        img: 'https://upload.wikimedia.org/wikipedia/en/c/ce/FFVIIRemake.png',
+        answers: [
+            {text: 'Yes', correct: true},
+            {text: 'No', correct: false},
+        ],
+    },
+    {
+        question: 'Is "Super Mario 64" a first-person shooter game?',
+        img: 'https://upload.wikimedia.org/wikipedia/ru/9/92/Super_mario_64.jpg',
+        answers: [
+            {text: 'Yes', correct: false},
+            {text: 'No', correct: true},
+        ],
+    },
+    {
+        question: 'Is "Dark Souls" known for its challenging difficulty? ',
+        img: 'https://upload.wikimedia.org/wikipedia/ru/0/05/Dark_Souls_Cover_Art.jpeg',
+        answers: [
+            {text: 'Yes', correct: true},
+            {text: 'No', correct: false},
+        ],
+    },
+    {
+        question: 'Does "Among Us" have a single-player mode?',
+        img: 'https://upload.wikimedia.org/wikipedia/en/9/9a/Among_Us_cover_art.jpg',
+        answers: [
+            {text: 'Yes', correct: false},
+            {text: 'No', correct: true},
+        ],
+    },
+    {
+        question: 'is "Rocket League" set in a fantasy medieval world? ',
+        img: 'https://www.harrisburgu.edu/wp-content/uploads/189dce017fb19e3ca1b94b2095d519cc514df22c.jpg',
+        answers: [
+            {text: 'Yes', correct: false},
+            {text: 'No', correct: true},
+        ],
+    },
+    {
+        question: 'Does "The Witcher 3: Wild Hunt" feature a branching storyline?',
+        img: 'https://image.api.playstation.com/vulcan/ap/rnd/202211/0711/kh4MUIuMmHlktOHar3lVl6rY.png',
+        answers: [
+            {text: 'Yes', correct: true},
+            {text: 'No', correct: false},
+        ],
+    },
+    {
+        question: 'Is "Call of Duty: Warzone" a battle royale game ?',
+        img: 'https://store-images.s-microsoft.com/image/apps.64530.13739535057760905.9506aae3-1290-433f-9d84-f3d91000412d.008a24a1-3dd2-4284-acd0-c538b29428b2',
+        answers: [
+            {text: 'Yes', correct: true},
+            {text: 'No', correct: false},
+        ],
+    },
+    {
+        question: 'Does "Overwatch" have a variety of unique heroes to choose from ?',
+        img: 'https://img.youtube.com/vi/z7usG2oKONE/maxresdefault.jpg?imwidth=&imdensity=2',
+        answers: [
+            {text: 'Yes', correct: true},
+            {text: 'No', correct: false},
+        ],
+    },
+    {
+        question: 'Can you play "FIFA" games without controlling a soccer team ?',
+        img: 'https://image.api.playstation.com/vulcan/ap/rnd/202212/1622/XCzzcOl1IRgWQsrB9MFO7cg3.png',
+        answers: [
+            {text: 'Yes', correct: false},
+            {text: 'No', correct: true},
+        ],
+    },
 ]
 
 class Quiz {
